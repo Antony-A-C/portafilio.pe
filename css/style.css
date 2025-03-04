@@ -336,7 +336,7 @@ h3.my-profession{
     font-size: 24px;
     margin-bottom: 15px;
     font-weight: 700;
-    color: var(--text-black-900);
+    color: var(--text-tony-100);
 }
 
 .about .about-content .about-text h3 span{
@@ -395,7 +395,7 @@ h3.my-profession{
     line-height: 40px;
     font-weight: 600;
     font-size: 19px;
-    color: black;
+    color: var(--text-tony-100);
     text-transform: capitalize;
 }
 
@@ -422,7 +422,7 @@ h3.my-profession{
 .about .about-content .skills .skill-item .skill-percent{
     position: absolute;
     right: 0;
-    color: black;
+    color: var(--text-tony-100);
     top: -40px;
     font-weight: 400;
     line-height: 40px;
@@ -439,6 +439,7 @@ h3.my-profession{
     font-size: 24px;
     margin-bottom: 30px;
     font-weight: 700px;
+    color: var(--text-tony-100);
 }
 
 .about .about-content .timeline-box{
@@ -676,11 +677,12 @@ h3.my-profession{
 }
 @media(max-width:991px){
     .contact .contact-info-item,
-    .portfolio .portfolio-item,
-    .service .service-item{
+    .portfolio .portfolio-item
+{
         flex: 0 0 50%;
         max-width: 50%;
     }
+
     
     .home .home-info{
         flex:  0 0 100%;
@@ -690,6 +692,17 @@ h3.my-profession{
         display: none;
     }
 }
+
+@media(max-width:991px){
+    .service .service-item{
+        flex: 0 0 40%;
+        max-width: 40%;
+        margin: auto ;
+        margin-right: 10px;
+        margin-bottom: 10px;
+
+    }
+    }
 
 @media(max-width:767px){
     .contact .contact-form .col-6,
